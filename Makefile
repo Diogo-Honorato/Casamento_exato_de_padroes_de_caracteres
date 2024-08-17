@@ -31,7 +31,7 @@ obj_dirs:
 	@mkdir -p $(OBJ_DIR)
 
 # Variáveis para argumentos
-ARG1 = D
+ARG1 = S
 ARG2 = entrada.txt
 
 # Para rodar com valgrind e verificar vazamentos de memória

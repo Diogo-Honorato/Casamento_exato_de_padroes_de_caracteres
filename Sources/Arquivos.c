@@ -4,7 +4,7 @@
 #include "../Headers/Arquivos.h"
 #include "../Headers/Input.h"
 
-int escreverArquivo(const char *caminhoArquivoSaida, int *resultados, int numeroQueries, char algoritmo)
+int escreverArquivo(const char *caminhoArquivoSaida, int *resultados, int numeroQueries)
 {
     FILE *fileOut = fopen(caminhoArquivoSaida, "w");
     if (fileOut == NULL)
@@ -12,15 +12,7 @@ int escreverArquivo(const char *caminhoArquivoSaida, int *resultados, int numero
         printf("\n\033[0;31mErro ao abrir o arquivo de saída: %s\033[0m\n\n", caminhoArquivoSaida);
         exit(1);
     }
-/////////////////////////////////////////////////
-    if(algoritmo == 'S'){
 
-        fprintf(fileOut,"Shift-And\n\n");
-    }else{
-
-        fprintf(fileOut,"BMHS\n\n");
-    }
-////////////////////////////////////////////////
     for(int i = 0; i < numeroQueries; i++){
 
         if(resultados[i] == 1){

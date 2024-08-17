@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "arquivos.h": "c"
+        "arquivos.h": "c",
+        "shiftand.h": "c"
     }
 }

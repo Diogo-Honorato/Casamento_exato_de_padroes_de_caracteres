@@ -1,5 +1,3 @@
-Shift-And
-
-nao
 sim
+nao
 sim

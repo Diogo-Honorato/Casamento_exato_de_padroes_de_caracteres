@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    escreverArquivo(caminhoArquivoSaida,resultados,input.numeroQueries,argv[1][0]);
+    escreverArquivo(caminhoArquivoSaida,resultados,input.numeroQueries);
 
     // Calculando a diferença de tempo
     timeval_subtract(&tempoDiferenca, &tempoFim, &tempoInicio);

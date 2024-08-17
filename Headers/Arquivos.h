@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "Input.h"
 
-int escreverArquivo(const char *caminhoArquivoSaida, int *resultados, int numeroQueries, char algoritmo);
+int escreverArquivo(const char *caminhoArquivoSaida, int *resultados, int numeroQueries);
 
 int contarCaracteres(FILE *arquivo);
 
