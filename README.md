@@ -39,16 +39,23 @@ Exemplo
 Entrada:
 
 abbaab
+
 ab
+
 3
+
 1 4
+
 3 5
+
 2 6
 
 Saída:
 
 sim
+
 nao
+
 sim
 
 Na tela, o programa deve imprimir apenas os tempos de usuário e os tempos de sistema para
