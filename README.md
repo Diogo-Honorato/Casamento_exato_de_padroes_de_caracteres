@@ -1,4 +1,4 @@
-A Busca Mágica pela Substring Perdida
+#A Busca Mágica pela Substring Perdida
 
 Em um reino encantado onde a magia permeia todas as coisas, uma antiga profecia foi revelada.
 Dizia-se que uma poderosa substring, capaz de conceder imenso poder a quem a dominasse, estava
@@ -23,15 +23,17 @@ enfrentando desafios e perigos, na busca pela substring perdida. Será você cap
 mistérios das palavras encantadas e encontrar o tesouro oculto antes que caia nas mãos erradas? A
 aventura aguarda!
 
-Input
+#Input
 
 A primeira linha de entrada contém uma string de tamanho n, a segunda linha contém uma
 string de tamanho m, a terceira linha contém um inteiro k: o número de queries.
 Após isso, a entrada possui k linhas descrevendo os queries. Cada linha contém dois inteiros a,
 b: o intervalo começa em a, termina em b
 
-Output
+#Output
+
 Para cada querie, imprima sim caso a substring esteja presente e nao caso contrário.
+
 Exemplo
 
 Entrada:
